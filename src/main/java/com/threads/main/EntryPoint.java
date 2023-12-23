@@ -10,7 +10,6 @@ public class EntryPoint {
 					t.start();					
 		Thread t1 = new Thread(new RunnableThread());
 				t1.start();
-		System.out.println("main(),");
 	}
 
 }

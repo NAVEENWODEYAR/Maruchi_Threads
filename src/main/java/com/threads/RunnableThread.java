@@ -6,9 +6,9 @@ public class RunnableThread implements Runnable {
 	public void run() {
 		for(int i=0; i<10; i++)
 		{
-			System.out.println("Thread,"+i);
+			System.out.println("\nRunnableThread,"+i);
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 				System.out.println(e.getClass());

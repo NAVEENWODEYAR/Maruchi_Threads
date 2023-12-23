@@ -6,9 +6,9 @@ public class StartThread extends Thread{
 		super.run();
 		for(int i=10; i>0; i--)
 		{
-			System.out.println("Welcome,"+i);
+			System.out.println("\nStart Thread,"+i);
 			try {
-				Thread.sleep(3000);
+				Thread.sleep(000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
