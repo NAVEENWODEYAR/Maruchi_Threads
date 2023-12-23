@@ -7,9 +7,11 @@ public class EntryPoint {
 
 	public static void main(String[] args) {
 		StartThread t = new StartThread();
-					t.start();					
+					t.start();	
+		System.out.println(t.getName());
 		Thread t1 = new Thread(new RunnableThread());
 				t1.start();
+		System.out.println(t1.getName());
 	}
 
 }
