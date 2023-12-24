@@ -12,6 +12,7 @@ public class EntryPoint {
 		System.out.println(t.getName());
 					t.setName("START:THREAD");
 		System.out.println(t.getName());
+		
 		Thread t1 = new Thread(new RunnableThread());
 				t1.start();
 				t1.setName("RUNNABLE:THREAD");
