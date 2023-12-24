@@ -3,7 +3,7 @@ package com.threads.main;
 import com.threads.RunnableThread;
 import com.threads.StartThread;
 
-public class EntryPoint {
+public class MainThread {
 	
 	public static void main(String[] args) {
 		StartThread t = new StartThread();

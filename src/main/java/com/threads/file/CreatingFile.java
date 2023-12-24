@@ -3,9 +3,11 @@ package com.threads.file;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class CreatingFile {
-	void createFile()
+	// 1.creating an file,
+	public void createFile()
 	{
 		File f = new File("Test.txt");
 		try {
@@ -19,11 +21,26 @@ public class CreatingFile {
 		}
 	}
 	
-	void writeToFile() throws IOException
+	// 2. Writing to the file,
+	public void writeToFile() throws IOException
 	{
 		FileWriter writer = new FileWriter("Test.txt");
 					writer.write("Welcome tot file operations in the Java,");
 					writer.close();
+					System.out.println("\n");
+	}
+	
+	// 3. Reading file,
+	public void readFile()
+	{
+		Scanner sc = new Scanner("Test.txt");
+		while(sc.hasNextLine())
+		{
+			String st = sc.nextLine();
+			System.out.println(st);
+		}
+		sc.close();
+			
 		
 	}
 }
