@@ -14,6 +14,7 @@ public class RunnableThread implements Runnable {
 				System.out.println(e.getClass());
 			}
 		}	
+		System.out.println(Thread.currentThread());
 	}
 
 }
