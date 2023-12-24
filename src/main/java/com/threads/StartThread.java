@@ -4,6 +4,7 @@ public class StartThread extends Thread{
 	@Override
 	public void run() {
 		super.run();
+		setDaemon(isDaemon());
 		for(int i=10; i>0; i--)
 		{
 			System.out.println("\nThread,"+i);
