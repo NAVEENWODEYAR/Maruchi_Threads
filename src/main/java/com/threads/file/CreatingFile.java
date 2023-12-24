@@ -35,7 +35,7 @@ public class CreatingFile {
 		while(sc.hasNextLine())
 		{
 			String st = sc.nextLine();
-			System.out.println(st);
+			System.out.println(st.getBytes());
 		}
 		sc.close();
 	}
