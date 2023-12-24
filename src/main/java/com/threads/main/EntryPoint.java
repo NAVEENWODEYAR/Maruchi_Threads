@@ -19,6 +19,7 @@ public class EntryPoint {
 		
 		DeamonThreadEx dt = new DeamonThreadEx();
 		System.out.println(dt.isDaemon());
+		System.out.println(t.isAlive());
 	}
 
 }
