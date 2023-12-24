@@ -16,7 +16,6 @@ public class CreatingFile {
 			else
 				System.out.println("Error in creating");
 		} catch (IOException e) {
-			e.printStackTrace();
 			System.out.println(e.getLocalizedMessage());
 		}
 	}
@@ -25,11 +24,10 @@ public class CreatingFile {
 	public void writeToFile() throws IOException
 	{
 		FileWriter writer = new FileWriter("Test.txt");
-					writer.write("Welcome tot file operations in the Java,");
+					writer.write("Welcome to file operations in the Java,");
 					writer.close();
-					System.out.println("\n");
 	}
-	
+
 	// 3. Reading file,
 	public void readFile()
 	{
@@ -40,7 +38,5 @@ public class CreatingFile {
 			System.out.println(st);
 		}
 		sc.close();
-			
-		
 	}
 }
