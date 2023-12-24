@@ -26,5 +26,4 @@ public class CreatingFile {
 					writer.close();
 		
 	}
-
 }
