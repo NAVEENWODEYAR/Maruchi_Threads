@@ -15,9 +15,9 @@ public class MainClass {
 				float prod = calci.prod(a,b);
 				
 		if(add > prod)
-			System.out.println("\nSum of given integers,"+add);
+			System.out.println("\nSum of given integers:"+add);
 		else
-			System.out.println("\nProduct of given integers,"+prod);
+			System.out.println("\nProduct of given integers:"+prod);
 	}
 
 }
