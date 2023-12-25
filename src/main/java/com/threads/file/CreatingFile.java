@@ -25,6 +25,7 @@ public class CreatingFile {
 	{
 		FileWriter writer = new FileWriter("Test.txt");
 					writer.write("Welcome to file operations in the Java,");
+					writer.write("\n FileWriter provides writer to write into the file,");
 					writer.close();
 	}
 
