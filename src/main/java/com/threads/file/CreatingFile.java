@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class CreatingFile {
-	// 1.creating an file,
+	// 1.creating file,
 	public void createFile()
 	{
 		File f = new File("Test.txt");

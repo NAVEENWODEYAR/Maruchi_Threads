@@ -12,6 +12,7 @@ public class FileThread {
 		c.writeToFile();
 		c.readFile();
 		System.out.println("\n File IO done,");
+		System.out.println(Thread.currentThread());
 	}
 
 }
