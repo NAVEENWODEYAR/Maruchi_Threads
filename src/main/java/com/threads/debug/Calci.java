@@ -9,4 +9,9 @@ public class Calci {
 		return a*b;
 	}
 	
+	@Override
+	public String toString() {
+//		return super.toString();
+		return "Thread";
+	}
 }
