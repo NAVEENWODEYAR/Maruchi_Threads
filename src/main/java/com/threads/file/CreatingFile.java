@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class CreatingFile {
+	
 	// 1.creating file,
 	public void createFile()
 	{
@@ -20,12 +21,12 @@ public class CreatingFile {
 		}
 	}
 	
-	// 2. Writing to the file,
+	// 2. Writing to the file if exists,
 	public void writeToFile() throws IOException
 	{
 		FileWriter writer = new FileWriter("Test.txt");
-					writer.write("Welcome to file operations in the Java,");
-					writer.write("\n FileWriter provides writer to write into the file,");
+					writer.write("Welcome to file operations in the Java,\n");
+					writer.write("FileWriter provides writer to write into the file,\n");
 					writer.close();
 	}
 
