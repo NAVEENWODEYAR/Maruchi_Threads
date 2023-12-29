@@ -1,6 +1,6 @@
 package com.threads.object;
 
-public class Students {
+public class Students extends Thread {
 
 	private int stId;
 	private String stName;
