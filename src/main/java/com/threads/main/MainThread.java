@@ -1,5 +1,6 @@
 package com.threads.main;
 
+import com.threads.DeamonThreadEx;
 import com.threads.RunnableThread;
 import com.threads.StartThread;
 
@@ -16,6 +17,8 @@ public class MainThread {
 				t1.start();
 				t1.setName("RUNNABLE:THREAD");
 		System.out.println(t1.getName());
+		
+		new DeamonThreadEx().run();
 	}
 	
 }

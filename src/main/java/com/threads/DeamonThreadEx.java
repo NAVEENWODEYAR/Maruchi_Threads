@@ -5,5 +5,6 @@ public class DeamonThreadEx extends Thread{
 	public void run() {
 		super.run();
 		setDaemon(true);
+		System.out.println("Iam Daemon,");
 	}
 }
