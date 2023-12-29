@@ -15,7 +15,9 @@ public class Students {
 	@Override
 	public boolean equals(Object obj) {
 		Students s = (Students) obj;
-		return super.equals(obj);
+		Students s1 = (Students) obj;
+		
+		return (s1.stId == s.stId || s1.stName == s.stName);
 	}
 	
 	public static void main(String[] args) {
@@ -23,10 +25,9 @@ public class Students {
 		Students s1 = new Students(0, null);
 		
 		if(s.equals(s1))
-			System.out.println("equals()");
+			System.out.println("equals() overridden,");
 		else if(s == s1)
 			System.out.println("== opearator,");
 		
-		System.out.println("***************");
 	}
 }
