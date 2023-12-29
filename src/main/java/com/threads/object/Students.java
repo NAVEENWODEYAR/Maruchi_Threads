@@ -17,6 +17,7 @@ public class Students {
 		Students s = (Students) obj;
 		Students s1 = (Students) obj;
 		
+		System.out.println(Thread.currentThread());
 		return (s1.stId == s.stId || s1.stName == s.stName);
 	}
 	
