@@ -6,7 +6,7 @@ import com.threads.StartThread;
 
 public class MainThread {
 	
-	public static void main(String[] args) {
+	public static synchronized void main(String[] args) {
 		StartThread t = new StartThread();
 					t.start();	
 		System.out.println(t.getName());
