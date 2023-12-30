@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class CreatingFile {
+public class CreatingFile extends Thread {
 	
 	// 1.creating file,
 	public void createFile()
@@ -15,9 +15,9 @@ public class CreatingFile {
 			if(f.createNewFile())
 				System.out.println("File created,"+f.getName());
 			else
-				System.out.println("Error in creating");
+				System.out.println("Error while file creation,");
 		} catch (IOException e) {
-			System.out.println(e.getLocalizedMessage());
+			System.out.println(e.getCause());
 		}
 	}
 	
@@ -25,7 +25,7 @@ public class CreatingFile {
 	public void writeToFile() throws IOException
 	{
 		FileWriter writer = new FileWriter("Test.txt");
-					writer.write("Welcome to file operations in the Java,\n");
+					writer.write("Welcome to file operations in the Java,\n Threads");
 					writer.write("FileWriter provides writer to write into the file,\n");
 					writer.close();
 	}
