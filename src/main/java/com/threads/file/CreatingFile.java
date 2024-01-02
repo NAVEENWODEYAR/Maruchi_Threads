@@ -10,7 +10,7 @@ public class CreatingFile extends Thread {
 	// 1.creating file,
 	public void createFile()
 	{
-		File f = new File("Test.txt");
+		File f = new File("Thread.txt");
 		try {
 			if(f.createNewFile())
 				System.out.println("File created,"+f.getName());
