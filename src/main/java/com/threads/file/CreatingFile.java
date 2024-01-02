@@ -5,6 +5,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/** 
+ * @Author Naveen Wodeyar
+ * @Date 02-01-2023
+ * */
 public class CreatingFile extends Thread {
 	
 	// 1.creating file,
