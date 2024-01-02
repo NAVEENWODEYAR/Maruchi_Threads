@@ -24,7 +24,7 @@ public class CreatingFile extends Thread {
 	// 2. Writing to the file if exists,
 	public void writeToFile() throws IOException
 	{
-		FileWriter writer = new FileWriter("Test.txt");
+		FileWriter writer = new FileWriter("Thread.txt");
 					writer.write("Welcome to file operations in the Java,\n Threads");
 					writer.write("FileWriter provides writer to write into the file,\n");
 					writer.close();
