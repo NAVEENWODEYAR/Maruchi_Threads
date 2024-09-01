@@ -13,14 +13,12 @@ public class MyThread extends Thread {
 	public MyThread(Counter counter) {
 		this.counter = counter;
 	}
-	public static void main(String[] args) {
-
-		
-	}
+	
 	@Override
 	public void run() {
 		for (int i = 0; i < 1000; i++) {
 			counter.increment();
+			counter.inCrement();
 		}
 	}
 }

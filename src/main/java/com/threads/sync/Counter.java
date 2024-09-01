@@ -11,6 +11,12 @@ public class Counter {
 		count++;
 	}
 	
+	public void inCrement() {
+		synchronized (this) {
+			count++;			
+		}
+	}
+	
 	public int getCount() {
 		return count;
 	}
