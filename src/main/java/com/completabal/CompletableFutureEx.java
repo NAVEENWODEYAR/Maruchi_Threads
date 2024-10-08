@@ -14,7 +14,7 @@ public class CompletableFutureEx {
 				Thread.sleep(5000);
 				System.out.println("Worker Thread");
 			} catch (Exception e) {
-				// TODO: handle exception
+				e.getCause();
 			}
 			return "OK";
 		});
@@ -22,7 +22,7 @@ public class CompletableFutureEx {
 		try {
 			s = supplyAsync.get();
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println(e.getLocalizedMessage());
 		}
 		System.out.println(s);
 		System.out.println("Main");
