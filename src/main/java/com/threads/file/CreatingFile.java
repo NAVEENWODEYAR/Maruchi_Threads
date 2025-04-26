@@ -9,8 +9,23 @@ import java.util.Scanner;
  * @Author Naveen Wodeyar
  * @Date 02-01-2023
  * */
+
 public class CreatingFile extends Thread {
 	
+	/**
+	 * @param testFileName
+	 */
+	public CreatingFile(String testFileName) {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * 
+	 */
+	public CreatingFile() {
+		// TODO Auto-generated constructor stub
+	}
+
 	// 1.creating file,
 	public void createFile()
 	{
