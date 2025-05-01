@@ -5,8 +5,7 @@ public class StartThread extends Thread{
 	public void run() {
 		super.run();
 		setDaemon(isDaemon());
-		for(int i=10; i>0; i--)
-		{
+		for(int i=10; i>0; i--){
 			System.out.println("\nThread,"+i);
 			try {
 				Thread.sleep(000);
