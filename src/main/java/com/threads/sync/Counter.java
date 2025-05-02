@@ -1,8 +1,10 @@
 package com.threads.sync;
+
 /**
  * @author NaveenWodeyar
  * @date 01-Sept-2024
  */
+
 public class Counter {
 	
 	private int count = 0;

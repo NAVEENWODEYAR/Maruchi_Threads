@@ -1,8 +1,10 @@
 package com.threads.sync;
+
 /**
  * @author NaveenWodeyar
  * @date 01-Sept-2024
  */
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -15,8 +17,8 @@ public class Test {
 		try {
 			t1.join();
 			t2.join();
-
 		} catch (Exception e) {
+			System.out.println("Exception occurred"+e);
 			e.printStackTrace();
 		}
 		System.out.println(counter.getCount());

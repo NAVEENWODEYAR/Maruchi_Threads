@@ -1,11 +1,10 @@
 package com.threads.sync;
 
-import java.util.Iterator;
-
 /**
  * @author NaveenWodeyar
  * @date 01-Sept-2024
  */
+
 public class MyThread extends Thread {
 
 	private Counter counter;

@@ -1,7 +1,6 @@
 package com.threads.main;
 
 import java.io.IOException;
-
 import com.threads.file.CreatingFile;
 
 public class FileThread {
