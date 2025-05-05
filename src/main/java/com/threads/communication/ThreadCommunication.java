@@ -1,8 +1,10 @@
 package com.threads.communication;
+
 /**
  * @author NaveenWodeyar
  * @date 01-Sept-2024
  */
+
 class SharedResources{
 	private int data;
 	
