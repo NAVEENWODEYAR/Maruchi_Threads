@@ -1,0 +1,1 @@
+Hello from threaded file writing in Java!
