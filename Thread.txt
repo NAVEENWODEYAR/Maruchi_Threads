@@ -1,2 +1,0 @@
-Welcome to file operations in the Java,
- ThreadsFileWriter provides writer to write into the file,
