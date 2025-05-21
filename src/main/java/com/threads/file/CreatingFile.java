@@ -50,8 +50,7 @@ public class CreatingFile extends Thread {
 	}
 
 	// 3. Reading file,
-	public void readFile()
-	{
+	public void readFile(){
 		Scanner sc = new Scanner("Test.txt");
 		while(sc.hasNextLine())
 		{
