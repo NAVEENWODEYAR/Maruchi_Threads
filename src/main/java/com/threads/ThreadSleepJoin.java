@@ -1,8 +1,9 @@
+package com.threads;
+
 /**
  * @author NaveenWodeyar
  * @date 16-May-2025
  */
-package com.threads;
 
 public class ThreadSleepJoin {
     public static void main(String[] args) throws InterruptedException {
