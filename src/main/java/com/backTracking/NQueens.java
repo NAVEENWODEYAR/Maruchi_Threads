@@ -3,11 +3,11 @@ package com.backTracking;
 /**
  * @author NaveenWodeyar
  * @date 18-Jul-2025
- * Place N queens on an N×N chessboard so that no two queens threaten each other.
+ * Place N queens on an N×N chessBoard so that no two queens threaten each other.
  */
 
 public class NQueens {
-    final int N = 4;
+    final int N = 16;
 
     void printSolution(int board[][]) {
         for (int[] row : board) {
