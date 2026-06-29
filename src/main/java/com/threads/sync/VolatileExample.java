@@ -12,14 +12,14 @@ public class VolatileExample {
         VolatileExample example = new VolatileExample();
 
         Thread writer = new Thread(() -> {
-            example.message = "Hello from thread!";
+            example.message = "Hello message from thread!";
         });
 
         Thread reader = new Thread(() -> {
             while (example.message == null) {
                 // Wait until message is not null
             }
-            System.out.println("Message received: " + example.message);
+            System.out.println("Message received from thread: " + example.message);
         });
 
         writer.start();
