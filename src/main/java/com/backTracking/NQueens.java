@@ -51,7 +51,7 @@ public class NQueens {
         int board[][] = new int[N][N];
 
         if (!solveNQUtil(board, 0)) {
-            System.out.print("Solution does not exist");
+            System.out.print("Solution does not exist/Try with different approach");
             return;
         }
 
