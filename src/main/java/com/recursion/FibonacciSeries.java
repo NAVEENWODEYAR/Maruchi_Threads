@@ -8,7 +8,7 @@ package com.recursion;
 public class FibonacciSeries {
 
 	public static void main(String[] args) {
-		System.out.println("\nFibonacci series using recursion\n");
+		System.out.println("\nFibonacci series demo using recursion\n");
 		int n = 20;
 		
 		for(int i=0; i<n; i++) {
