@@ -12,6 +12,8 @@ import java.util.concurrent.Executors;
 public class CountDownLatchEx {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
+
+System.out.println("Countdown latch demo");
 		
 		int numberOfServices = 4;
 		ExecutorService executorService = Executors.newFixedThreadPool(3);
