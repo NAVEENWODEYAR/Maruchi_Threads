@@ -12,7 +12,7 @@ public class CyclicBarrierExample {
 
     public static void main(String[] args) {
         CyclicBarrier barrier = new CyclicBarrier(THREADS, () -> {
-            System.out.println("All threads reached barrier. Proceeding...");
+            System.out.println("All threads reached at barrier. Proceeding...");
         });
 
         for (int i = 0; i < THREADS; i++) {
@@ -23,7 +23,7 @@ public class CyclicBarrierExample {
                     Thread.sleep(1000 * id); // simulate different timings
                     System.out.println("Thread " + id + " waiting at barrier");
                     barrier.await();
-                    System.out.println("Thread " + id + " passed barrier");
+                    System.out.println("Thread " + id + " passed at barrier");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
