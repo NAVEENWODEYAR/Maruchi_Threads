@@ -10,6 +10,7 @@ public class CloneEx implements Cloneable {
 		CloneEx cl = new CloneEx();
 		CloneEx cl1 = (CloneEx) cl.clone();
 		
+System.out.println("Cloning demo program");
 		System.out.println(cl.hashCode()+"=="+cl1.hashCode());
 	}
 
