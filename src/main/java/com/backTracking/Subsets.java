@@ -20,7 +20,7 @@ public class Subsets {
 
     public static void main(String[] args) {
         String str = "AB";
-System.out.println("Substring program");
+System.out.println("Substring/Substring program");
         generateSubsets(str, 0, "");
     }
 }
