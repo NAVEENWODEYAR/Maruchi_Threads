@@ -29,6 +29,8 @@ class PingPong {
 
 public class PingPongDemo {
     public static void main(String[] args) {
+
+System.out.println("Ping pong demo");
         PingPong pp = new PingPong();
 
         Thread t1 = new Thread(() -> {
