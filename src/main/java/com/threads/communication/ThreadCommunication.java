@@ -21,7 +21,7 @@ class SharedResources{
 		
 		data = value;
 		hasData = true;
-		System.out.println("Produced: "+value);
+		System.out.println("Produced message : "+value);
 		notify();
 		
 	}
@@ -35,7 +35,7 @@ class SharedResources{
 			}
 		}
 		hasData = false;
-		System.out.println("Consumed: "+data);
+		System.out.println("Consumed message : "+data);
 		notify();
 		return data;
 	}
