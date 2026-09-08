@@ -20,6 +20,7 @@ public class StringPermutation {
     }
 
     public static void main(String[] args) {
+System.out.println("String permutations");
         String str = "ABC";
         permute(str, "");
     }
