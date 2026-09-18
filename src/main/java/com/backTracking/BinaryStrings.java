@@ -17,6 +17,7 @@ public class BinaryStrings {
     }
 
     public static void main(String[] args) {
+System.out.println("Generate binary string");
         int n = 3; // change this to generate longer strings
         generateBinary(n, "");
     }
