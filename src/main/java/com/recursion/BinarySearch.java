@@ -8,7 +8,7 @@ package com.recursion;
 public class BinarySearch {
 
 	public static void main(String[] args) {
-		System.out.println("Binary serarch");
+		System.out.println("Binary serarch using recursion");
 		int arr[] = {0,2,4,6,8};
 		int target = 8;
 		System.out.println(search(arr,0,arr.length - 1,target));
