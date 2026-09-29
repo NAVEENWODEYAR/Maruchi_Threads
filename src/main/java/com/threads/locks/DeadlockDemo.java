@@ -10,6 +10,7 @@ class DeadlockDemo {
     static final Object lock2 = new Object();
 
     public static void main(String[] args) {
+System.out.println("Thread lock demo program");
         Thread t1 = new Thread(() -> {
             synchronized (lock1) {
                 System.out.println("Thread 1: Locked lock1");
