@@ -59,7 +59,7 @@ public class NQueens {
     }
 
     public static void main(String args[]) {
-System.out.println("N Queens problem");
+System.out.println("Solution to N Queens problem");
         new NQueens().solveNQ();
     }
 }
