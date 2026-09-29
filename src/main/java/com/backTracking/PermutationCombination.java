@@ -34,6 +34,7 @@ public class PermutationCombination {
     }
 
     public static void main(String[] args) {
+System.out.println("Permutations and Combination program");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         String number = scanner.nextLine();
